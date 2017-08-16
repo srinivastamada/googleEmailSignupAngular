@@ -1,0 +1,8 @@
+<form action="#">
+  <input type="email"  [(ngModel)]="userEmail" required name="email"/>
+  <input type="submit" (click)="emailValidate()" />
+  </form>
+  <div>{{errorMsg}}</div>
+  <div *ngIf="googleUrl">
+  <img [src]="googleUrl"  (load)="googleUrlSuccess($event)" (error)="googleUrlError($event)"/>
+  </div>
