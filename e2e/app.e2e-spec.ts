@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('google-check App', () => {
+describe('g-check App', () => {
   let page: AppPage;
 
   beforeEach(() => {

@@ -20,7 +20,7 @@ const routes: Routes = [
     HomeComponent
   ],
   imports: [
-    BrowserModule,HttpModule, RouterModule.forRoot(routes), FormsModule
+    BrowserModule, HttpModule, RouterModule.forRoot(routes), FormsModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
